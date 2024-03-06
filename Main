@@ -1,0 +1,16 @@
+public class Main{
+    public static void main(String[] args){
+        Car bmw = new Car(4, "Holmer", 4);
+        Motorcycle cycle = new Motorcycle();
+        Vehicle vehicle = new Vehicle();
+        System.out.println(bmw.getColor());
+        System.out.println(bmw.getOwner());
+
+        System.out.println(cycle.getOwner());
+        bmw.vroom();
+        vehicle.vroom();
+        System.out.println(vehicle.getOwner());
+        System.out.println(bmw.getterOwner());
+
+    }
+}
