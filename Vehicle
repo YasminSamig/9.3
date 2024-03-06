@@ -1,0 +1,31 @@
+
+public class Vehicle {
+    private String color;
+    private int speed;
+    private String owner;
+    public Vehicle(int s, String o){
+        speed=s;
+        owner =o;
+        System.out.println("Vehicle");
+
+    }
+
+    public Vehicle (){
+
+    }
+    public void speedy(){
+        System.out.println("This vehicle goes at " + speed + "km/h");
+    }
+
+    public String getColor(){
+        return color;
+    }
+
+    public String getOwner(){
+        return owner;
+    }
+
+    public void vroom(){
+        System.out.println("Vrooooooom");
+    }
+}
