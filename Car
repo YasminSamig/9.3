@@ -1,0 +1,21 @@
+public class Car extends Vehicle{
+    private int wheels;
+    private int owner;
+    public Car(int s,  String o, int w){
+        super(s,o);
+        wheels=w;
+        System.out.println("Car");
+
+    }
+    public void wheely(){
+        System.out.println("This car has " + wheels + "wheels");
+    }
+
+
+    public void vroom(){
+        System.out.println("Vroom");
+    }
+    public int getterOwner(){
+        return owner;
+    }
+}
